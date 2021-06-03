@@ -1,1 +1,63 @@
 // Use the gear_dropdown.png screenshot as a style guide
+// .hidden{
+//     display: none;
+// }
+.gear-dropdown{
+    position: absolute;
+    display: none;
+    font-size: 16px;
+    background-color: white;
+    box-shadow: -1px 4px 6px 1px rgba(0, 0, 0, 0.09);
+    width: 125px;
+    top: 32px;
+    right: 0px;
+    text-align: left;
+    z-index: 700;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#dropdown {
+    position: relative;
+}
+
+#dropdown:hover{
+    cursor: pointer;
+}
+
+#dropdown:hover .gear-dropdown{
+    display: block;
+}
+
+.dropdown-subtitle{
+    text-transform: uppercase;
+    font-family: arial, helvetica, sans-serif;
+    font-size: 16px;
+    color: #6f6f6f;
+    font-family: $sans-serif;
+    font-weight: 700;
+}
+
+.dropdown-subtitle:hover{
+    text-decoration: none;
+}
+
+.no-decoration{
+    text-decoration: none;
+    color: inherit;
+}
+
+.dropdown-link a{
+    font-family: sans-serif;
+}
+
+.dropdown-link .no-decoration:hover{
+    background-color: lightgray;
+}
+.dropdown-link .blue:hover{
+    text-decoration: underline;
+}
+.blue{
+    color: lightblue;
+    text-decoration: none;
+}
