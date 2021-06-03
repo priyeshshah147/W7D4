@@ -6,26 +6,30 @@ html {
 }
 
 body {
-	// ...
+	width:80%;
+	margin: 0 auto;
+	font-family: $serif;
+	font-size: 12px;
 }
 
 button {
-	// background-color:
-	// border-color:
-	// color:
-	// font-weight:
-	// padding:
-	// border-radius:
+	background-color:lightblue;
+	border-color: lightblue;
+	color:white;
+	font-weight:600;
+	padding: 5px;
+	border-radius: 3px;
 	// transition:
-	// font-family:
-	// text-transform:
-	// font-size:
-	// text-align:
+	font-family: sans-serif;
+	// text-transform: 
+	font-size: 16px;
+	text-align: center;
 }
 
 button:hover {
-	// background-color:
+	// background-color:gray;
 	// border-color:
+	filter:brightness(0.9)
 }
 
 /*
